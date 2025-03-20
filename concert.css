@@ -1,0 +1,65 @@
+body
+{
+    /*background: url(Images/bg.jpg);*/
+    /*background-size: cover;*/
+    /*font-family: Arial Rounded MT;*/
+    background-color: black;
+ }
+ 
+ .wrap
+ {
+   max-width: 350px;
+   border-radius: 20px;
+   margin: auto;
+   /*background: rgba(0,0,0,0.8);*/
+   background: bl;
+   box-sizing: border-box;
+   padding: 40px;
+   color: aquamarine;
+   margin-top:100px;
+ }
+ 
+ h2
+ {
+   text-align: center;
+ }
+ 
+ input[type=text],input[type=email],select
+ {
+   width: 30%;
+   box-sizing: border-box;
+   padding: 12px 5px;
+   background: rgba(0,0,0,0.10);
+   outline: none;
+   border: none;
+   border-bottom: 1px solid white;
+   color: #93826E;
+   border-radius: 5px;
+   margin: 5px;
+   font-weight: bold;
+   font-size: 18px;
+ }
+ 
+ input[type=submit]
+ {
+   /*width: 100%;*/
+   box-sizing: border-box;
+   padding: 10px;
+   margin-top: 30px;
+   outline: none;
+   border: none;
+   background: #F9004D;
+   opacity: 0.7;
+   border-radius: 20px;
+   font-size: 20px;
+   color: #fff;
+ }
+ 
+ input[type=submit]:hover
+ {
+   background:black;
+   /*opacity: 0.7;*/
+   border: 2px solid #F9004D;
+   cursor: pointer;
+ }
+ 
